@@ -1,4 +1,5 @@
 from turtle import *
+
 # setup(startx=800)
 title("ma maison")
 hideturtle()
@@ -8,7 +9,6 @@ fillcolor("yellow")
 
 
 def construire_toit(taille):
-    print("Construction du toit")
     # Toit
     penup()
     left(180)
@@ -26,7 +26,6 @@ def construire_toit(taille):
 
 
 def constuire_facade(taille):
-    print("Construction de la facade")
     # Facade
     forward(taille)
     left(90)
@@ -38,7 +37,6 @@ def constuire_facade(taille):
 
 
 def constuire_garage(taille):
-    print("Construction du garage")
     # garage
     penup()
     left(90)
@@ -54,6 +52,7 @@ def constuire_garage(taille):
 
 def construire_maison(taille=80):
     """ Méthode de construction d'une maison """
+    print(f"Construction d'une maison de taille {taille}")
     pendown()
     constuire_facade(taille)
     constuire_garage(taille)
@@ -68,6 +67,7 @@ def construire_maison(taille=80):
 # construire_maison(taille=100)
 # setposition(200, 0)
 # construire_maison(taille=1000)
+
 penup()
 setposition(-200, 00)
 for i in range(10, 181, 10):
