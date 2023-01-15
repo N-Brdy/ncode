@@ -24,4 +24,4 @@ for i in range(255*2):
     rt(91)
     pencolor(r,g,b)
 
-done()
+mainloop()

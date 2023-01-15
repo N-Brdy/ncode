@@ -28,7 +28,7 @@ right(135)
 forward(70)
 right(45)
 penup()
-goto(100, -25)
+setposition(100, -25)
 pendown()
 
 forward(25)
